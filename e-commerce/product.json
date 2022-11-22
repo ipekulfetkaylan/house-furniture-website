@@ -1,0 +1,68 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "köse aydınlatma",
+          "price": 400.00,
+          "image": { "fields": { "file": { "url": "/img/product-1.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "beyaz çalışma masası",
+          "price": 999,
+          "image": { "fields": { "file": { "url": "/img/product-2.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "banyo dolabı",
+          "price": 599.00,
+          "image": { "fields": { "file": { "url": "/img/product-3.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "mutfak dolabı",
+          "price": 12999.00,
+          "image": { "fields": { "file": { "url": "/img/product-4.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "sofa ikili köşe koltuk",
+          "price": 6000,
+          "image": { "fields": { "file": { "url": "/img/product-5.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "ahşap mutfak masası",
+          "price": 3700,
+          "image": { "fields": { "file": { "url": "/img/product-6.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "çift kişilik ahşap karyola",
+          "price": 2999,
+          "image": { "fields": { "file": { "url": "/img/product-7.avif" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "orta boy turuncu halı",
+          "price": 799,
+          "image": { "fields": { "file": { "url": "/img/product-8.jpg" } } }
+        }
+      }
+    ]
+  }

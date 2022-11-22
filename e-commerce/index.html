@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfy House</title>
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+        <img src="./img/logo.svg" alt="logo">
+        <div class="cart-btn">
+            <span class="nav-icon">
+                <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+            </span>
+            <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Mobilya Koleksiyonu</h1>
+            <button class="banner-btn">incele</button>
+        </div>
+    </header>
+    <!-- product -->
+    <section class="products">
+        <div class="section-title">
+            <h2>Ürünlerimiz</h2>
+        </div>
+        <div class="products-center">
+            <!-- <article class="product">
+                <div class="img-container">
+                    <img src="/img/product-1.jpg" alt="" class="products-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        sepete ekle
+                    </button>
+                </div>
+                <h3>Köşe aydınlatma</h3>
+                <h4>400.00</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <img src="/img/product-1.jpg" alt="" class="products-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        sepete ekle
+                    </button>
+                </div>
+                <h3>Köşe aydınlatma</h3>
+                <h4>400.00</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <img src="/img/product-1.jpg" alt="" class="products-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        sepete ekle
+                    </button>
+                </div>
+                <h3>Köşe aydınlatma</h3>
+                <h4>400.00</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <img src="/img/product-1.jpg" alt="" class="products-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        sepete ekle
+                    </button>
+                </div>
+                <h3>Köşe aydınlatma</h3>
+                <h4>400.00</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <img src="/img/product-1.jpg" alt="" class="products-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        sepete ekle
+                    </button>
+                </div>
+                <h3>Köşe aydınlatma</h3>
+                <h4>400.00</h4>
+            </article> -->
+        </div>
+    </section>
+
+    <!-- cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fa-solid fa-xmark"></i>
+            </span>
+            <h2>Sepetim</h2>
+            <div class="cart-content">
+                <!-- cart-item -->
+                <div class="cart-item">
+                    <!-- <img src="/img/product-1.jpg" alt="">
+                    <div>
+                        <h4>Aydınlatma</h4>
+                        <h5>400.00</h5>
+                        <span class="remove-item">remove</span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-chevron-up"></i>
+                        <div class="item-amount">0</div>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div> -->
+                </div>
+            </div>
+            <div class="cart-footer">
+                <p class="clear-text">Henüz sepete hiçbir ürün eklemedin!</p>
+                <h3>Toplam: <span class="cart-total">0</span> ₺ </h3>
+                <button class="clear-cart banner-btn">Tümünü sil</button>
+               
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div class="services-section">
+        <div class="services-container">
+            <ul class="services-list">
+                <li class="services-item">
+                    <div class="item-icon">
+                        <img src="./img/service-icon-1.png" alt="icon" width="40"
+                        height="40">
+                    </div>
+                    <h3 class="services-title">Ücretsiz kargo</h3>
+                </li>
+                <li class="services-item">
+                   <div class="item-icon">
+                    <img src="./img/service-icon-2.png" alt="icon" width="40"
+                    height="40">
+                   </div>
+                   <h3 class="services-title">Güvenli ödeme</h3>
+                </li>
+                <li class="services-item">
+                   <div class="item-icon">
+                    <img src="./img/service-icon-3.png" alt="icon" width="40"
+                    height="40">
+                   </div>
+                   <h3 class="services-title">7/24 destek</h3>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="info">
+                <ul class="info-list">
+                    <h4 class="footer-list-title">ComfyHouse</h4>
+                    <li class="info-item"><a href="#">Kurumsal</a></li>
+                    <li class="info-item"><a href="#">Kariyer Olanakları</a></li>
+                    <li class="info-item"><a href="#">Mağazalar</a></li>
+                    <li class="info-item"><a href="#">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <ul class="info-list">
+                    <h4 class="footer-list-title">Destek</h4>
+                    <li class="info-item"><a href="#">Sipariş Takibi</a></li>
+                    <li class="info-item"><a href="#">Sık Sorulan Sorular</a></li>
+                    <li class="info-item"><a href="#">Değişim & İade</a></li>
+                    <li class="info-item"><a href="#">Kullanım Koşulları</a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <ul class="info-list">
+                    <h4 class="footer-list-title">Koleksiyonlar</h4>
+                    <li class="info-item"><a href="#">Koltuklar</a></li>
+                    <li class="info-item"><a href="#">Yatak Odası</a></li>
+                    <li class="info-item"><a href="#">Halı</a></li>
+                    <li class="info-item"><a href="#">Yemek Odası</a></li>
+                    <li class="info-item"><a href="#">Ev Tekstili</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <ul class="social-list">
+                    <li>
+                       <i class="fa-brands fa-facebook"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-instagram"></i>
+                    </li>
+                    <li>
+                       <i class="fa-brands fa-twitter"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      
+        <div class="footer-logo">
+            <img src="./img/logo.svg" alt="logo">
+        </div>
+        <p>@ 2022 Tüm Hakları Saklıdır.</p>
+        
+    </footer>
+
+    <!-- contentful -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+
+   <script src="index.js"></script>
+</body>
+</html>
